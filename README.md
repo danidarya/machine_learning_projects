@@ -1,1 +1,3 @@
-# некоторые учебные проекты из специализации "Машинное обучение и анализ данных" coursera и "Академия больших данных MADE"
+## Некоторые учебные проекты 
+* 
+* Предсказание стоимости аренды недвижимости в Лондоне по характеристикам квартир, отзывам на них и календарю. [ipnb](https://github.com/danidarya/machine_learning_projects/blob/master/airbnb_price_prediction/airbnb_London_price_prediction.ipynb) 
