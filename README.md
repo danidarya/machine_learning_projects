@@ -4,3 +4,4 @@
 * Моделирование распространения коронавируса  [ipynb](https://github.com/danidarya/machine_learning_projects/blob/master/coronavirus_modelling/coronavirus_modeling.ipynb)
 * Предсказание жанров фильма по диалогу из него  [ipynb](https://github.com/danidarya/machine_learning_projects/blob/master/genre_prediction/genre_prediction_multilabel_classification.ipynb)
 * Построение инвертированного индекса (проект в курсе по Python)  [ссылка](https://github.com/danidarya/machine_learning_projects/tree/master/inverted_index)
+* Определение токсичных комментариев(сравнение моделей с разной предобработкой данных [ipynb](https://github.com/danidarya/machine_learning_projects/blob/master/toxic_comments_classification/toxic_comments_classification.ipynb)
