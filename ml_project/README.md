@@ -1,4 +1,4 @@
-# Homework 01
+# ML project for ML in Production course
 
 Installation: 
 ~~~
