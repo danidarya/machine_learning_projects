@@ -1,0 +1,46 @@
+2021-05-09 20:58:01,357 - INFO - Start train with params PipelineParams(train_data_path='data_raw/heart.csv', data_for_pred_path='data_raw/data_for_pred.csv', predictions_path='models/predictions.csv', model_path='models/model.pkl', transformer_path='models/transformer.pkl', metric_path='models/metrics.json', split_params=SplitParams(test_size=0.25, random_state=123), features_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'thalach', 'oldpeak'], target='target'), train_params=TrainParams(model_type='LogisticRegression', C=1.0, penalty='l2', max_iter=1000, n_estimators=100, max_depth=10, n_jobs=-1, random_state=123)).
+2021-05-09 20:58:01,360 - INFO - Data shape is (303, 14)
+2021-05-09 20:58:01,361 - INFO - Train data shape is (227, 14)
+2021-05-09 20:58:01,361 - INFO - Validation data shape is (76, 14)
+2021-05-09 20:58:01,375 - INFO - Train features shape is (227, 30)
+2021-05-09 20:58:01,380 - INFO - Validation features shape is (76, 30)
+2021-05-09 20:58:01,927 - INFO - Metrics are: {'accuracy': 0.7894736842105263, 'f1_score': 0.7948717948717948}
+2021-05-09 20:58:01,927 - INFO - Model saved at models/model.pkl
+2021-05-09 20:58:01,928 - INFO - Feature transformer saved at models/transformer.pkl
+2021-05-09 20:58:01,928 - INFO - Finished.
+2021-05-09 20:58:12,598 - INFO - Start predict pipeline with params PipelineParams(train_data_path='data_raw/heart.csv', data_for_pred_path='data_raw/data_for_pred.csv', predictions_path='models/predictions.csv', model_path='models/model.pkl', transformer_path='models/transformer.pkl', metric_path='models/metrics.json', split_params=SplitParams(test_size=0.25, random_state=123), features_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'thalach', 'oldpeak'], target='target'), train_params=TrainParams(model_type='LogisticRegression', C=1.0, penalty='l2', max_iter=1000, n_estimators=100, max_depth=10, n_jobs=-1, random_state=123))
+2021-05-09 20:58:12,600 - INFO - Data shape is (20, 13)
+2021-05-09 20:58:12,601 - INFO - Model LogisticRegression(max_iter=1000, n_jobs=-1, random_state=123) loaded.
+2021-05-09 20:58:12,601 - INFO - Transformer loaded.
+2021-05-09 20:58:12,607 - INFO - Features shape is (20, 30)
+2021-05-09 20:58:12,608 - INFO - Predictions shape is (20,)
+2021-05-09 20:58:12,608 - INFO - Predictions saved to models/predictions.csv
+2021-05-09 20:58:12,611 - INFO - Finished.
+2021-05-09 20:58:29,321 - INFO - Start train with params PipelineParams(train_data_path='data_raw/heart.csv', data_for_pred_path='data_raw/data_for_pred.csv', predictions_path='models/predictions.csv', model_path='models/model.pkl', transformer_path='models/transformer.pkl', metric_path='models/metrics.json', split_params=SplitParams(test_size=0.2, random_state=321), features_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'thalach', 'oldpeak'], target='target'), train_params=TrainParams(model_type='RandomForestClassifier', C=None, penalty=None, max_iter=1000, n_estimators=100, max_depth=10, n_jobs=-1, random_state=123)).
+2021-05-09 20:58:29,323 - INFO - Data shape is (303, 14)
+2021-05-09 20:58:29,324 - INFO - Train data shape is (242, 14)
+2021-05-09 20:58:29,324 - INFO - Validation data shape is (61, 14)
+2021-05-09 20:58:29,340 - INFO - Train features shape is (242, 30)
+2021-05-09 20:58:29,344 - INFO - Validation features shape is (61, 30)
+2021-05-09 20:58:29,490 - INFO - Metrics are: {'accuracy': 0.7704918032786885, 'f1_score': 0.7741935483870969}
+2021-05-09 20:58:29,493 - INFO - Model saved at models/model.pkl
+2021-05-09 20:58:29,494 - INFO - Feature transformer saved at models/transformer.pkl
+2021-05-09 20:58:29,494 - INFO - Finished.
+2021-05-09 20:58:40,679 - INFO - Start predict pipeline with params PipelineParams(train_data_path='data_raw/heart.csv', data_for_pred_path='data_raw/data_for_pred.csv', predictions_path='models/predictions.csv', model_path='models/model.pkl', transformer_path='models/transformer.pkl', metric_path='models/metrics.json', split_params=SplitParams(test_size=0.2, random_state=321), features_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'thalach', 'oldpeak'], target='target'), train_params=TrainParams(model_type='RandomForestClassifier', C=None, penalty=None, max_iter=1000, n_estimators=100, max_depth=10, n_jobs=-1, random_state=123))
+2021-05-09 20:58:40,681 - INFO - Data shape is (20, 13)
+2021-05-09 20:58:40,684 - INFO - Model RandomForestClassifier(max_depth=10, n_jobs=-1, random_state=123) loaded.
+2021-05-09 20:58:40,685 - INFO - Transformer loaded.
+2021-05-09 20:58:40,690 - INFO - Features shape is (20, 30)
+2021-05-09 20:58:40,704 - INFO - Predictions shape is (20,)
+2021-05-09 20:58:40,705 - INFO - Predictions saved to models/predictions.csv
+2021-05-09 20:58:40,706 - INFO - Finished.
+2021-05-09 20:58:45,690 - INFO - Start train with params PipelineParams(train_data_path='/home/daria/PycharmProjects/ml_project/tests/fake_data.csv', data_for_pred_path=local('/tmp/pytest-of-daria/pytest-28/test_train_e2e0/fake_data.csv'), predictions_path=local('/tmp/pytest-of-daria/pytest-28/test_train_e2e0/predictions.csv'), model_path=local('/tmp/pytest-of-daria/pytest-28/test_train_e2e0/model.pkl'), transformer_path=local('/tmp/pytest-of-daria/pytest-28/test_train_e2e0/transformer.pkl'), metric_path=local('/tmp/pytest-of-daria/pytest-28/test_train_e2e0/metrics.json'), split_params=SplitParams(test_size=0.25, random_state=123), features_params=FeatureParams(categorical=['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], numerical=['age', 'trestbps', 'chol', 'thalach', 'oldpeak'], target='target'), train_params=TrainParams(model_type='LogisticRegression', C=1, penalty='l2', max_iter=1000, n_estimators=100, max_depth=10, n_jobs=-1, random_state=123)).
+2021-05-09 20:58:45,692 - INFO - Data shape is (100, 15)
+2021-05-09 20:58:45,693 - INFO - Train data shape is (75, 15)
+2021-05-09 20:58:45,693 - INFO - Validation data shape is (25, 15)
+2021-05-09 20:58:45,708 - INFO - Train features shape is (75, 29)
+2021-05-09 20:58:45,713 - INFO - Validation features shape is (25, 29)
+2021-05-09 20:58:46,253 - INFO - Metrics are: {'accuracy': 0.48, 'f1_score': 0.23529411764705882}
+2021-05-09 20:58:46,254 - INFO - Model saved at /tmp/pytest-of-daria/pytest-28/test_train_e2e0/model.pkl
+2021-05-09 20:58:46,254 - INFO - Feature transformer saved at /tmp/pytest-of-daria/pytest-28/test_train_e2e0/transformer.pkl
+2021-05-09 20:58:46,254 - INFO - Finished.
